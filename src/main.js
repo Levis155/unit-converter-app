@@ -73,16 +73,12 @@ convertButton.addEventListener("click", () => {
       toDekameters = inputElement.value * 100;
       toHectometers = inputElement.value * 10;
       toKilometers = inputElement.value / 1;
-    } else if(selectElement.value === 'base unit'){
-      return;
-    }
+    } 
 
 
     displayResults();
   }
-  // else{
-  //   document.querySelector('.bottom-section').innerHTML = '';
-  // }
+
 
 });
 
